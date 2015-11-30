@@ -1,5 +1,5 @@
 <?php
-
+test
 	// load the login class
 	require_once("classes/Login.php");
 	$login = new Login();
