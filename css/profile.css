@@ -1,0 +1,145 @@
+/* We remove the margin, padding, and list style of UL and LI components */
+#sidebar ul, #sidebar ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#sidebar{
+	height:100%;
+	float:left;
+}
+#sidemenu{
+	background:#67737b;
+    width:70px;
+    height:100%;
+}
+/* We apply background color and border bottom white and width to 150px */
+#sidebar ul li.item{
+    background-color:#67737b;
+    width:inherit;
+    cursor:pointer;
+    text-align:center;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	border-top: 1px solid rgba(255, 255, 255, .1);
+}
+/* Applying a seperator between each icon/link */
+#sidebar ul li.first {
+	margin-top:5px;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	border-top: none;
+}
+/* Fixes spacing issues above sidebar */
+@media (max-width: 768px) {
+	#sidebar ul li.first {
+		margin-top:0px;
+	}
+}
+#sidebar ul li.last {
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	border-bottom: none;
+	}
+
+/* We apply the background hover color when user hover the mouse over of the li component */
+#sidebar ul li:hover{
+    /*position:relative;*/
+
+}
+
+/* We apply the link style */
+#sidebar ul li a{
+    padding-top:25px;
+    padding-bottom:25px;
+    color:#f8f8f8;
+    display:inline-block;
+    text-decoration:none;
+}
+#sidebar ul li a.selected {
+	background-color: rgba(255,255,255,0.05);
+	text-shadow: 1px 1px #333;
+	width:100%;
+	border: none;
+}
+
+#sidebar ul li a.selected:after {
+    content: "  ";
+    display: block;
+    border-bottom: 0.5em solid transparent;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid rgba(255,255,255,1);
+    border-top: 0.5em solid transparent;
+    height: 0px;
+    margin-top: -35px;
+    position: absolute;
+	left: 56px;
+	width:1px;
+
+}
+
+#sidebar ul li a:hover{
+	color:#f8f8f8;
+	background-color: rgba(255,255,255,0.05);
+	width: inherit;
+	text-shadow: 1px 1px #333;
+    transition:color 0.3s ease;
+    -o-transition:color 0.3s ease;
+    -webkit-transition:color 0.3s ease;
+    -moz-transition:color 0.3s ease;
+}
+#sidebar ul li.noflyover {
+	border:none;
+}
+
+#sidebar ul li a:hover:after {
+    content: "  ";
+    display: block;
+    border-bottom: 0.5em solid transparent;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid rgba(255,255,255,1);
+    border-top: 0.5em solid transparent;
+    height: 0px;
+    margin-top: -35px;
+    position: absolute;
+    left:56px;
+    width: 1px;
+    transition:border-right 1s ease;
+    -o-transition:border-right 1s ease;
+    -webkit-transition:border-right 1s ease;
+    -moz-transition:border-right 1s ease;
+}
+
+/* Icon Menu Styling */
+ #sidemenu span{
+	 font-size: .9em;
+	 padding: 5px 15px 5px 15px;
+ }
+
+/* Settings Icon stick to bottom */
+#sidebar .settings {
+	position: relative;
+	bottom:0px;
+}
+	@media (max-height: 475px) {
+		#sidebar .settings{
+			position: relative;
+		}
+	}
+
+	/* Profile Body Styling */
+.wrapper {
+	width:100%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+	.content-left {
+		float:left;
+		background-color: #333;
+		color:#fff;
+	}
+
+	.content-right {
+		float:left;
+		background-color:#999;
+	}
+
+	/* Profile body end */
