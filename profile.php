@@ -84,4 +84,3 @@ right
 
 <!-- Profile Styling -->
 <link href="../css/profile.css" rel="stylesheet" type="text/css" />
-<?php include "segments/footer.php" ?>

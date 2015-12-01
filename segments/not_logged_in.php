@@ -34,7 +34,14 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+		<!-- Bootstrap scripts jQuery -->
+		<script src="../javascript/jquery.js"></script>
+		<script src="../javascript/bootstrap.min.js"></script>
+		<script src="../javascript/login-popup.js"></script>
+		<!-- Login scripts -->
+		<script src="javascript/loginBox.js"></script>
+		<!-- Modernizr -->
+		<script src="javascript/modernizr.js"></script>
 
 	</head>
 
