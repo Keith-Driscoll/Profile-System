@@ -6,7 +6,8 @@
 }
 #sidebar{
 	height:100%;
-	float:left;
+	padding: 0;
+	margin: 0;
 }
 #sidemenu{
 	background:#67737b;
@@ -125,13 +126,6 @@
 	}
 
 	/* Profile Body Styling */
-.wrapper {
-	width:100%;
-	float:left;
-	margin:0;
-	padding:0;
-	overflow: hidden;
-}
 	.content-left {
 		float:left;
 		background-color: #333;
