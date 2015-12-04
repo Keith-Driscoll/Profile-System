@@ -5,14 +5,27 @@
     list-style:none;
 }
 #sidebar{
-	height:100%;
+	height: calc(100% - 65px);
 	padding: 0;
 	margin: 0;
+	width:75px;
+	position: absolute;
+	top: 65px;
+	left:70;
 }
 #sidemenu{
 	background:#67737b;
     width:70px;
     height:100%;
+}
+#wrapper {
+	margin:20px 0 0 0;
+	padding:0;
+	position: relative;
+	left:70px;
+	overflow: hidden;
+	float:left;
+	width: calc(100% - 75px);
 }
 /* We apply background color and border bottom white and width to 150px */
 #sidebar ul li.item{
@@ -116,8 +129,8 @@
 
 /* Settings Icon stick to bottom */
 #sidebar .settings {
-	position: relative;
-	bottom:0px;
+	position: absolute;
+	bottom: 0;
 }
 	@media (max-height: 475px) {
 		#sidebar .settings{
@@ -126,15 +139,13 @@
 	}
 
 	/* Profile Body Styling */
-
 	.content-left {
-		float:left;
+		padding-left: 20px;
 		background-color: #333;
 		color:#fff;
 	}
 
 	.content-right {
-		float:left;
 		background-color:#999;
 	}
 

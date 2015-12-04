@@ -32,7 +32,7 @@
 				subscription plans
 				features
 		-->
-<!-- sidebar -->
+			<!-- sidebar -->
 	<div id="sidebar" class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
 		<!-- sidemenu -->
         <ul id="sidemenu">
@@ -71,30 +71,21 @@
 	</div><!-- ./Sidebar END -->
 
 <!-- Main Body Styling -->
-	<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-		<!-- content left container-->
-		<div class="content-left col-lg-6 col-md-6 col-sm-12 col-xs-12">
-			<div class="container">
-				<!-- main col -->
-				<div class="col-lg-12">
-					main col
-				</di><!-- ./main col end -->
-			</div>
-		</div><!-- ./ content left end -->
-		<!-- Content right container -->
-		<div class="content-right col-lg-6 col-md6 col-sm-12 col-xs-12">
-			<div class="container">
-				<!-- left col -->
-				<div class="col-lg-6">
-					sub col-left
-				</div> <!-- ./left col end -->
-				<!-- right col -->
-				<div class="col-lg-6">
-					sub col-right
-				</div><!-- ./right col end -->
-			</div>
-		</div><!-- ./content right end -->
-	</div><!-- ./Main body styling end -->
+<div id="wrapper" class="col-lg-12">
+	<div class="main-left col-lg-6">
+		<div class="container">
+			main content
+		</div><!-- ./container end -->
+	</div><!-- ./main left end-->
 
+	<div class="main-right col-lg-6">
+		<div class="left-col col-lg-6">
+			left col
+		</div><!-- ./left col end -->
+		<div class="right-col col-lg-6">
+			right col
+		</div><!-- ./right col end -->
+	</div><!-- ./main right end -->
+</div><!-- ./wrapper end -->
 <!-- Profile Styling -->
 <link href="../css/profile.css" rel="stylesheet" type="text/css" />
