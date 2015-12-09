@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <match-history>
-
+<!-- match -->
 	<match>
 		<id>00001</id>
 		<match-duration>
@@ -20,7 +20,7 @@
 			<player team="SSW">Lorenzo Keehn</player>
 		</participants>
 	</match>
-
+<!-- match -->
 	<match>
 		<id>#00002</id>
 		<match-duration>
@@ -40,7 +40,7 @@
 			<player team="SSW">Lorenzo Keehn</player>
 		</participants>
 	</match>
-
+<!-- match -->
 	<match>
 		<id>#00003</id>
 		<match-duration>

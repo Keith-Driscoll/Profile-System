@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teams>
+<!-- team -->
 	<team>
 		<name>SKT</name>
 		<age>
@@ -16,7 +17,7 @@
 			<player>Wilford Haack</player>
 		</members>
 	</team>
-
+<!-- team -->
 	<team>
 		<name>FNTC</name>
 		<age>
@@ -33,7 +34,7 @@
 			<player>Kris Tolman</player>
 		</members>
 	</team>
-
+<!-- team -->
 	<team>
 		<name>SSW</name>
 		<age>
