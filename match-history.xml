@@ -2,50 +2,62 @@
 <match-history>
 
 	<match>
-		<id></id>
-		<match-duration></match-duration>
-		<match-date></match-date>
+		<id>00001</id>
+		<match-duration>
+			<hours>1</hours>
+			<minutes>2</minutes>
+		</match-duration>
+		<match-date>
+			<year>2015</year>
+			<month>12</month>
+			<day>4</day>
+		</match-date>
 		<game-played>
 			<game>League of Legends</game>
-			<game>Starcraft II</game>
-			<game>Hearthstone</game>
-			<game>DoTa</game>
 		</game-played>
 		<participants>
-			<player></player>
-			<player></player>
+			<player team="SKT">John Doe</player>
+			<player team="SSW">Lorenzo Keehn</player>
 		</participants>
 	</match>
 
 	<match>
-		<id></id>
-		<match-duration></match-duration>
-		<match-date></match-date>
+		<id>#00002</id>
+		<match-duration>
+			<hours>0</hours>
+			<minutes>59</minutes>
+		</match-duration>
+		<match-date>
+			<year>2015</year>
+			<month>12</month>
+			<day>3</day>
+		</match-date>
 		<game-played>
-			<game>League of Legends</game>
 			<game>Starcraft II</game>
-			<game>Hearthstone</game>
-			<game>DoTa</game>
 		</game-played>
 		<participants>
-			<player></player>
-			<player></player>
+			<player team="FNTC">Sammy Brun</player>
+			<player team="SSW">Lorenzo Keehn</player>
 		</participants>
 	</match>
 
 	<match>
-		<id></id>
-		<match-duration></match-duration>
-		<match-date></match-date>
+		<id>#00003</id>
+		<match-duration>
+			<hours>0</hours>
+			<minutes>25</minutes>
+		</match-duration>
+		<match-date>
+			<year>2015</year>
+			<month>12</month>
+			<day>2</day>
+		</match-date>
 		<game-played>
-			<game>League of Legends</game>
-			<game>Starcraft II</game>
 			<game>Hearthstone</game>
-			<game>DoTa</game>
 		</game-played>
 		<participants>
-			<player></player>
-			<player></player>
+			<player team="SKT">John Doe</player>
+			<player team="FNTC">Sammy Brun</player>
 		</participants>
 	</match>
 </match-history>

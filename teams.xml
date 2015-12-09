@@ -4,11 +4,10 @@
 		<name>SKT</name>
 		<age>
 			<years>0</years>
-			<months>0</months>
+			<months>2</months>
 			<weeks>1</weeks>
-			<days>2</days>
+			<days>1</days>
 		</age>
-		<total></age>
 		<members>
 			<player>John Doe</player>
 			<player>Bernardo Strasser</player>
@@ -22,11 +21,10 @@
 		<name>FNTC</name>
 		<age>
 			<years>0</years>
-			<months>0</months>
-			<weeks>2</weeks>
+			<months>3</months>
+			<weeks>1</weeks>
 			<days>2</days>
 		</age>
-		<total></age>
 		<members>
 			<player>Basil Moors</player>
 			<player>Sammy Brun</player>
@@ -40,11 +38,10 @@
 		<name>SSW</name>
 		<age>
 			<years>0</years>
-			<months>0</months>
+			<months>1</months>
 			<weeks>1</weeks>
-			<days>5</days>
+			<days>3</days>
 		</age>
-		<total></age>
 		<members>
 			<player>Ali Fleckenstein</player>
 			<player>Moshe Rybicki</player>
