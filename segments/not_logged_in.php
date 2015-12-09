@@ -57,9 +57,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-						<div class="logo">
+						<div class="">
 							<h1>
-								<a class="navbar-brand" href="index.php"></a>
+								<a class="navbar-brand" href="index.php">Profile</a>
 							</h1>
 						</div>
 					</div>

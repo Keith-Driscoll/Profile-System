@@ -6,7 +6,6 @@
 
 <body>
 <?php include "profile.php"; ?>
-</body>
 
 <footer>
 	<!-- Bootstrap scripts jQuery -->
@@ -16,4 +15,5 @@
 	<!-- Modernizr -->
 	<script src="javascript/modernizr.js"></script>
 </footer>
+</body>
 </html>

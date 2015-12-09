@@ -22,7 +22,6 @@
 		<!-- Custom CSS -->
 		<link href="../css/style.css" rel="stylesheet" type="text/css" />
 		<link href="../css/loginBox.css" rel="stylesheet" type="text/css" />
-		<link href="../css/profile.css" rel="stylesheet" type="text/css" />
 		<link href="../css/navigation.css" rel="stylesheet" type="text/css" />
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -46,9 +45,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<div class="logo">
+					<div class="">
 							<h1>
-								<a class="navbar-brand" href="index.php"></a>
+								<a class="navbar-brand" href="index.php">Profile</a>
 							</h1>
 						</div>
 				</div>

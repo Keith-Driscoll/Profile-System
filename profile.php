@@ -40,7 +40,7 @@
 				<a class="noflyout" href="#">Home</a>
 			</li> -->
 			<li class="first"></li>
-            <li class="item noflyover"><!-- About -->
+            <li class="item"><!-- About -->
 				<a class="selected" href="#">
 					<i class="fa fa-user fa-2x"></i><br/>
 					<span>About</span>
@@ -71,21 +71,177 @@
 	</div><!-- ./Sidebar END -->
 
 <!-- Main Body Styling -->
-<div id="wrapper" class="col-lg-12">
-	<div class="main-left col-lg-6">
-		<div class="container">
-			main content
-		</div><!-- ./container end -->
-	</div><!-- ./main left end-->
+<!-- wrapper -->
+<div id="wrapper">
+	<!-- main left content-->
+	<div class="main-left col-lg-6 col-md-6 col-sm-12">
+		<!-- container -->
+		<div class="container-fluid">
+			<div class="profile-section col-lg-12 col-sm-12">
+				<h4>Main Profile</h4>
+				<!-- profile image -->
+				<div class="profile-wrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<img class="img-responsive" src="http://placehold.it/250" alt="profile_photo"/>
+				</div><!-- ./profile image end -->
 
-	<div class="main-right col-lg-6">
-		<div class="left-col col-lg-6">
-			left col
+				<!-- profile info start -->
+				<div class="profile-info col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<h4>Username</h4>
+					<p class="profile-text">
+						text
+					</p>
+					<h4>Email</h4>
+					<p class="profile-text">
+						text
+					</p>
+					<h4>Website</h4>
+					<p class="profile-text">
+						text
+					</p>
+					<h4>Bio</h4>
+					<p class="profile-text">
+						text
+					</p>
+				</div><!-- ./profile info end -->
+				<div class="clearfix"></div>
+			</div><!-- ./profile section end -->
+			<div class="clearfix"></div>
+
+			<!-- social section-->
+			<div class="profile-section col-lg-12">
+				<h4>Social Media</h4>
+				<!-- left col start -->
+				<div class="profile-wrap col-lg-6 col-md-6 col-sm-12">
+					<!-- Link start -->
+					<p class="profile-text">
+						<span class="fa fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-twitch fa-stack-1x"></i>
+						</span>
+						Twitch
+					</p><!-- ./Link end -->
+					<!-- Link start -->
+					<p class="profile-text">
+						<span class="fa fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-twitter fa-stack-1x"></i>
+						</span>
+						Twitter
+					</p><!-- ./Link end -->
+					<!-- Link start -->
+					<p class="profile-text">
+						<span class="fa fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-facebook fa-stack-1x"></i>
+						</span>
+						Facebook
+					</p><!-- ./Link end -->
+				</div><!-- ./left col end-->
+
+				<!-- right col start -->
+				<div class="profile-wrap col-lg-6 col-md-6 col-sm-12">
+					<!-- Link start -->
+					<p class="profile-text">
+						<span class="fa fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-twitch fa-stack-1x"></i>
+						</span>
+						Twitch
+					</p><!-- ./Link end -->
+					<!-- Link start -->
+					<p class="profile-text">
+						<span class="fa fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-twitter fa-stack-1x"></i>
+						</span>
+						Twitter
+					</p><!-- ./Link end -->
+					<!-- Link start -->
+					<p class="profile-text">
+						<span class="fa fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-facebook fa-stack-1x"></i>
+						</span>
+						Facebook
+					</p><!-- ./Link end -->
+				</div><!-- ./right col end-->
+			</div><!-- ./social section end -->
+			<div class="clearfix"></div>
+
+			<!-- other section -->
+			<div class="profile-section col-lg-12">
+				<div class="profile-wrap">
+					<h4>Advert Placement</h4>
+					<p class="profile-text">
+						Advert box
+					</p>
+				</div>
+			</div><!-- ./other section end -->
+		</div><!-- ./container end -->
+
+	</div><!-- ./main left end-->
+	<!-- main right content-->
+	<div class="main-right col-lg-6 col-md-6 col-sm-12">
+		<!-- left col content -->
+		<div class="left-col col-lg-6 col-md-6 col-sm-12">
+			<!-- teams section-->
+			<div class="profile-section">
+				<h4>Teams</h4>
+				<!-- team section -->
+				<div class="team-section">
+					<img class="team-icon" src="http://placehold.it/50" alt="icon"/>
+					<p class="team-text">
+						team
+					</p>
+				</div><!-- ./team section end-->
+				<div class="clearfix"></div>
+				<!-- team section -->
+				<div class="team-section">
+					<img class="team-icon" src="http://placehold.it/50" alt="icon"/>
+					<p class="team-text">
+						team
+					</p>
+				</div><!-- ./team section end-->
+				<div class="clearfix"></div>
+				<!-- team section -->
+				<div class="team-section">
+					<img class="team-icon" src="http://placehold.it/50" alt="icon"/>
+					<p class="team-text">
+						team
+					</p>
+				</div><!-- ./team section end-->
+				<div class="clearfix"></div>
+
+			</div><!-- ./teams section end -->
+
+			<!-- achievements section -->
+			<div class="profile-section">
+				<h4>Achievements</h4>
+				<!-- achievements section -->
+				<div class="achievements-section">
+					<div class="achievements-icon">
+						<span class="fa fa-stack fa-lg">
+						<i class="fa fa-circle-o fa-stack-2x"></i>
+						<i class="fa fa-trophy fa-stack-1x"></i>
+						<span>
+					</div>
+					<p class="achievements-text">Achievement</p>
+				</div><!-- ./achievements-section end -->
+				<div class="clearfix"></div>
+
+			</div><!-- ./profile-section end -->
 		</div><!-- ./left col end -->
-		<div class="right-col col-lg-6">
-			right col
+
+		<!-- right col content -->
+		<div class="right-col col-lg-6 col-md-6 col-sm-12">
+			<!-- match-history section -->
+			<div class="profile-section">
+				Match History
+			</div> <!--./ match-history section end -->
 		</div><!-- ./right col end -->
 	</div><!-- ./main right end -->
+	<div class="clearfix"></div>
+
 </div><!-- ./wrapper end -->
-<!-- Profile Styling -->
-<link href="../css/profile.css" rel="stylesheet" type="text/css" />
+<!-- Profile Stylesheet -->
+<link href="css/profile.css" rel="stylesheet" type="text/css" />

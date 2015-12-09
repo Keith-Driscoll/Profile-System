@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teams>
+	<team>
+		<name>SKT</name>
+		<age>
+			<years>0</years>
+			<months>0</months>
+			<weeks>1</weeks>
+			<days>2</days>
+		</age>
+		<total></age>
+		<members>
+			<player>John Doe</player>
+			<player>Bernardo Strasser</player>
+			<player>Sterling Lubinsky</player>
+			<player>Hal Janecek</player>
+			<player>Wilford Haack</player>
+		</members>
+	</team>
+
+	<team>
+		<name>FNTC</name>
+		<age>
+			<years>0</years>
+			<months>0</months>
+			<weeks>2</weeks>
+			<days>2</days>
+		</age>
+		<total></age>
+		<members>
+			<player>Basil Moors</player>
+			<player>Sammy Brun</player>
+			<player>Donald Hayhurst</player>
+			<player>Rich Haskin</player>
+			<player>Kris Tolman</player>
+		</members>
+	</team>
+
+	<team>
+		<name>SSW</name>
+		<age>
+			<years>0</years>
+			<months>0</months>
+			<weeks>1</weeks>
+			<days>5</days>
+		</age>
+		<total></age>
+		<members>
+			<player>Ali Fleckenstein</player>
+			<player>Moshe Rybicki</player>
+			<player>Reed Chupp</player>
+			<player>Jacinto Lewin</player>
+			<player>Lorenzo Keehn</player>
+		</members>
+	</team>
+</teams>

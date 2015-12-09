@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements>
+
+	<achievement>
+		<name>1st Place</name>
+		<value>0</value>
+		<description>Placing 1st in a content!</description>
+		<holder>
+			<player>Catina Caulkins</player>
+			<player>Benton Bradburn</player>
+			<player>Opal Ohslen</player>
+		</holder>
+	</achievement>
+
+	<achievement>
+		<name>2nd Place</name>
+		<value>0</value>
+		<description>Placing 2nd in a content!</description>
+		<holder>
+			<player>Sudie Speed</player>
+			<player>Prince Guel</player>
+			<player>Kurt Laufer</player>
+		</holder>
+	</achievement>
+
+	<achievement>
+		<name>3rd Place</name>
+		<value>0</value>
+		<description>Placing 3rd in a content!</description>
+		<holder>
+			<player>Kristyn Begley</player>
+			<player>Dexter Zamorano</player>
+			<player>Juliana Stelly</player>
+		</holder>
+	</achievement>
+</achievements>

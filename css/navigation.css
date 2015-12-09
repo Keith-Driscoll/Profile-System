@@ -2,27 +2,27 @@
 .navigation {}
 .navigation ul{list-style: none; display: inline-block;}
         .navigation li{
-            float: left; 
+            float: left;
             text-align: center;
-            font-size: 1.5em; 
+            font-size: 1.5em;
             margin: 0 0 0 0;
             height:100%;
         }
         .navigation ul li a{
-            color: #67737b; 
+            color: #67737b;
             display: block;
             padding: 25px 15px 25px 15px;
         }
         .navigation ul li a:hover{
-            color: #fff; 
-            text-decoration: none; 
+            color: #fff;
+            text-decoration: none;
             background-color:#d75c37;
         }
 
     .member {margin-top: 20px;}
         .login {margin-top:12px; margin-left: 10px; color: #d75c37; background-color: #f5f5f5; border-radius: 5px; border: #d75c37 solid 1px; padding: 7px 15px 5px 15px;}
         .login:hover {color: #ffffff; background-color: #d75c37;}
-        .login-dropdown { margin: 12px 68% 0 32%; color: #d75c37; 
+        .login-dropdown { margin: 12px 68% 0 32%; color: #d75c37;
 	    background-color: #f5f5f5; border-radius: 5px; border: #d75c37 solid 1px; padding: 7px 15px 5px 15px; float:left;}
 
 /*NAVBAR HOVER*/
@@ -260,11 +260,9 @@
 	background-color: transparent;
 }
 .logo {
-	background-image: url('../images/logo.png');
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: none;
 	height: 50px;
-	width: 50px;
+	width: 150px;
 	display: block;
 }
 

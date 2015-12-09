@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<match-history>
+
+	<match>
+		<id></id>
+		<match-duration></match-duration>
+		<match-date></match-date>
+		<game-played>
+			<game>League of Legends</game>
+			<game>Starcraft II</game>
+			<game>Hearthstone</game>
+			<game>DoTa</game>
+		</game-played>
+		<participants>
+			<player></player>
+			<player></player>
+		</participants>
+	</match>
+
+	<match>
+		<id></id>
+		<match-duration></match-duration>
+		<match-date></match-date>
+		<game-played>
+			<game>League of Legends</game>
+			<game>Starcraft II</game>
+			<game>Hearthstone</game>
+			<game>DoTa</game>
+		</game-played>
+		<participants>
+			<player></player>
+			<player></player>
+		</participants>
+	</match>
+
+	<match>
+		<id></id>
+		<match-duration></match-duration>
+		<match-date></match-date>
+		<game-played>
+			<game>League of Legends</game>
+			<game>Starcraft II</game>
+			<game>Hearthstone</game>
+			<game>DoTa</game>
+		</game-played>
+		<participants>
+			<player></player>
+			<player></player>
+		</participants>
+	</match>
+</match-history>
