@@ -20,26 +20,10 @@
 	mysqli_errno();
 ?>
 
-<script type="text/javascript">
-	/*$(document).ready(function(){
-		$.ajax({
-			type: "get",
-			url: "xml/namebank.xml",
-			dataTyle: "xml",
-			success: xmlParser
-		});
-	});
-	function xmlParser(xml){
-		$('#loading').fadeOut();
-		$(xml).find('name').each(function(){
-			$('.members').append('<div class="name">' + $(this).find(name).text() + '<br/></div>')
-		});
-		$('.members').fadeIn();
-	}
-</script>
 <script>
     $(document).ready(function()
       {
+		  //loads xml document
         $.get('xml/namebank.xml', function(d){
         $('body').append('<dl />');
 
@@ -47,11 +31,11 @@
 
             var $id = $(this);
             var name = $name.attr("name");
-
+			//searches for 'name' inside my xml document
             var html = '<div class="name">' + $(this).find(name).text() + '<br/></div>';
 
             $('dl').append($(html));
-
+			//applys the 'fadeout' function on the div named #loading
             $('#loading').fadeOut(1400);
         });
     });

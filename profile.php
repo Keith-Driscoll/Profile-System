@@ -2,48 +2,30 @@
 	// load the login class
 	require_once("classes/Login.php");
 	$login = new Login();
+	//logged in navigation bar view (login session starts)
 	if ($login->isUserLoggedIn() == true) {
 	    include("segments/logged_in.php");
 	} else {
+		// not-logged in navigation bar view (login/signup button)
 	    include("segments/not_logged_in.php");
 	}
 
 	// prints the last error
 	mysqli_errno();
+	//importing jQuery library
 ?><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
+	//fades in all the content within the page wrapper
         $("#wrapper").fadeIn(2500);
 });
 </script>
-<!--
-		To update profile settings, an Icon will be provided
-		to enable profile fields to be editable, per page.
-			About
-				username
-				email
-				country
-				website
-				bio
-			Profile
-				game accounts
-				achievements
-				social
-				teams
-			Participation
-				recent matches
-				match history
-			Upgrade
-				subscription plans
-				features
-		-->
-			<!-- sidebar -->
 
 	<div id="sidebar" class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
 		<!-- sidemenu -->
         <ul id="sidemenu">
             <!-- <li>
-				<a class="noflyout" href="#">Home</a>
+				<a class="" href="#">Home</a>
 			</li> -->
 			<li class="first"></li>
             <li class="item"><!-- About -->
@@ -78,7 +60,7 @@ $(document).ready(function(){
 
 <!-- Main Body Styling -->
 <!-- wrapper -->
-<div contenteditable="true" id="wrapper">
+<div id="wrapper">
 	<!-- main left content-->
 	<div class="main-left col-lg-6 col-md-6 col-sm-12">
 		<!-- container -->
@@ -236,7 +218,10 @@ $(document).ready(function(){
 			<div class="profile-section">
 				<h4>Match History</h4>
 
-				<div class="testbox">Keith's test box</div>
+				<div class="testbox">Match 1</div>
+				<div class="testbox">Match 2</div>
+				<div class="testbox">Match 3</div>
+				<div class="testbox">Match 4</div>
 
 			</div> <!--./ match-history section end -->
 		</div><!-- ./right col end -->

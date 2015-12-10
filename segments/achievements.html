@@ -14,8 +14,7 @@
 	});
 	//extracts xml data and outputs to html
 	function xmlParser(xml){
-		//fades out the div when page is fully loaded.
-		$('#dividgoeshere').fadeOut();
+		//searches for 'achievement' within xml document and iniates loop
 		$(xml).find("achievement").each(function(){
 			//inserts the images and name of each achievement
 			$("#achievements-section").append(' ' + $this('name')).text() + '"/>';

@@ -94,12 +94,7 @@ class Registration
                     $sql = "INSERT INTO player (player_username, player_pass, player_email, verification_hash)
                             VALUES('" . $user_name . "', '" . $user_password_hash . "', '" . $user_email . "', '".$hash."');";
                     $query_new_user_insert = $this->db_connection->query($sql);
-                    //$lastid = $this->db_connection->insert_id;
-                    //session_start();
-                    //$_SESSION['user_id'] = $lastid;
-                    //$_SESSION['user_name'] = $user_name;
-                    //$_SESSION['user_email'] = $user_email;
-                    //$_SESSION['user_login_status'] = 1;
+                   
 
 					include "phpmailer_registration.php";
 					
