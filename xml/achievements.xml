@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <achievements>
 <!-- achievement -->
 	<achievement>
 		<name>1st Place</name>
-		<value>0</value>
+		<image>0</image>
 		<description>Placing 1st in a content!</description>
 		<holder>
 			<player>Catina Caulkins</player>
@@ -14,7 +15,7 @@
 <!-- achievement -->
 	<achievement>
 		<name>2nd Place</name>
-		<value>0</value>
+		<image>0</image>
 		<description>Placing 2nd in a content!</description>
 		<holder>
 			<player>Sudie Speed</player>
@@ -25,7 +26,7 @@
 <!-- achievement -->
 	<achievement>
 		<name>3rd Place</name>
-		<value>0</value>
+		<image>0</image>
 		<description>Placing 3rd in a content!</description>
 		<holder>
 			<player>Kristyn Begley</player>

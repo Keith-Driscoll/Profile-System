@@ -23,6 +23,9 @@ body {
     height: 100%;
 }
 #wrapper {
+	/* Hides everything inside the wrapper*/
+	display:none;
+	/* So that jQuery FadeIn can be used*/
 	margin:15px 0 0 0;
 	padding:0;
 	position: relative;
@@ -192,7 +195,7 @@ body {
 				float:left;
 			}
 			/*Achievements section styling */
-			.achievements-section {
+			#achievements-section {
 				display: block;
 				float:left;
 			}

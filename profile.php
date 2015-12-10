@@ -10,7 +10,12 @@
 
 	// prints the last error
 	mysqli_errno();
-?>
+?><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+        $("#wrapper").fadeIn(2500);
+});
+</script>
 <!--
 		To update profile settings, an Icon will be provided
 		to enable profile fields to be editable, per page.
@@ -33,6 +38,7 @@
 				features
 		-->
 			<!-- sidebar -->
+
 	<div id="sidebar" class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
 		<!-- sidemenu -->
         <ul id="sidemenu">
@@ -72,7 +78,7 @@
 
 <!-- Main Body Styling -->
 <!-- wrapper -->
-<div id="wrapper">
+<div contenteditable="true" id="wrapper">
 	<!-- main left content-->
 	<div class="main-left col-lg-6 col-md-6 col-sm-12">
 		<!-- container -->
@@ -218,17 +224,9 @@
 			<div class="profile-section">
 				<h4>Achievements</h4>
 				<!-- achievements section -->
-				<div class="achievements-section">
-					<div class="achievements-icon">
-						<span class="fa fa-stack fa-lg">
-						<i class="fa fa-circle-o fa-stack-2x"></i>
-						<i class="fa fa-trophy fa-stack-1x"></i>
-						<span>
-					</div>
-					<p class="achievements-text">Achievement</p>
-				</div><!-- ./achievements-section end -->
+				<?php include "segments/achievements.html"; ?>
+				<!-- ./achievements-section end -->
 				<div class="clearfix"></div>
-
 			</div><!-- ./profile-section end -->
 		</div><!-- ./left col end -->
 
@@ -236,7 +234,10 @@
 		<div class="right-col col-lg-6 col-md-6 col-sm-12">
 			<!-- match-history section -->
 			<div class="profile-section">
-				Match History
+				<h4>Match History</h4>
+
+				<div class="testbox">Keith's test box</div>
+
 			</div> <!--./ match-history section end -->
 		</div><!-- ./right col end -->
 	</div><!-- ./main right end -->

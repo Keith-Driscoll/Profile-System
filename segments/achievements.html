@@ -1,0 +1,36 @@
+<script type="text/javascript">
+	/*
+	The document ready function ensures
+	the rest of the page is fully loaded
+	before processing xml begins.
+	*/
+	$(document).ready(function(){
+		$.ajax({
+		type: "GET",
+		url: "achievements.xml",
+		dataTyle: "xml",
+		success: xmlParser
+		});
+	});
+	//extracts xml data and outputs to html
+	function xmlParser(xml){
+		//fades out the div when page is fully loaded.
+		$('#dividgoeshere').fadeOut();
+		$(xml).find("achievement").each(function(){
+			//inserts the images and name of each achievement
+			$("#achievements-section").append(' ' + $this('name')).text() + '"/>';
+			//fades in the achievements
+			$("#achievements-section").fadeIn(1000);
+		});
+	}
+</script>
+	<!-- achievements section -->
+	<div id="achievements-section">
+		<div class="achievements-icon">
+			<span class="fa fa-stack fa-lg">
+			<i class="fa fa-circle-o fa-stack-2x"></i>
+			<i class="fa fa-trophy fa-stack-1x"></i>
+			<span>
+		</div>
+		<p class="achievements-text">Achievement</p>
+	</div><!-- ./achievements-section end -->
